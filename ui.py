@@ -11,7 +11,7 @@ import requests
 import json
 
 # 后端地址
-API_URL = "http://127.0.0.1:8000/api/chat"
+API_URL = "https://deemo2946-my-chatbot-api.hf.space/api/chat"
 
 st.title("🔑 自定义 API Key 聊天机器人")
 st.markdown("请输入你的 DeepSeek API Key，它只会用于本次对话，不会被存储。")
